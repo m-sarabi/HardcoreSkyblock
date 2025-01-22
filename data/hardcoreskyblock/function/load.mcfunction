@@ -1,6 +1,7 @@
 scoreboard objectives add random_x dummy
 scoreboard objectives add random_z dummy
 scoreboard objectives add dead deathCount
+scoreboard objectives add gapple minecraft.used:minecraft.golden_apple
 
 team add dead {"text": "Dead players"}
 team modify dead color red
