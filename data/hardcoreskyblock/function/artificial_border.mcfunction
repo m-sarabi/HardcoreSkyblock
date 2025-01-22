@@ -1,0 +1,9 @@
+# execute as @s at @s if predicate hardcoreskyblock:in_afterlife if predicate hardcoreskyblock:outside_border run tellraw @s {"text": "You reached the border of the Afterlife.","color": "#fc3e0e"}
+execute as @a at @s if predicate hardcoreskyblock:in_afterlife if predicate hardcoreskyblock:outside_border_xp run tellraw @s {"text": "You reached the border of the Afterlife.","color": "#fc3e0e"}
+execute as @a at @s if predicate hardcoreskyblock:in_afterlife if predicate hardcoreskyblock:outside_border_xn run tellraw @s {"text": "You reached the border of the Afterlife.","color": "#fc3e0e"}
+execute as @a at @s if predicate hardcoreskyblock:in_afterlife if predicate hardcoreskyblock:outside_border_zp run tellraw @s {"text": "You reached the border of the Afterlife.","color": "#fc3e0e"}
+execute as @a at @s if predicate hardcoreskyblock:in_afterlife if predicate hardcoreskyblock:outside_border_zn run tellraw @s {"text": "You reached the border of the Afterlife.","color": "#fc3e0e"}
+execute as @a at @s align xz positioned ~0.5 ~ ~0.5 if predicate hardcoreskyblock:in_afterlife if predicate hardcoreskyblock:outside_border_xp run tp ~-1 ~ ~
+execute as @a at @s align xz positioned ~0.5 ~ ~0.5 if predicate hardcoreskyblock:in_afterlife if predicate hardcoreskyblock:outside_border_xn run tp ~1 ~ ~
+execute as @a at @s align xz positioned ~0.5 ~ ~0.5 if predicate hardcoreskyblock:in_afterlife if predicate hardcoreskyblock:outside_border_zp run tp ~ ~ ~-1
+execute as @a at @s align xz positioned ~0.5 ~ ~0.5 if predicate hardcoreskyblock:in_afterlife if predicate hardcoreskyblock:outside_border_zn run tp ~ ~ ~1

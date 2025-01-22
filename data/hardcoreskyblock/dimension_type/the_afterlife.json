@@ -1,0 +1,24 @@
+{
+    "ultrawarm": false,
+    "natural": false,
+    "piglin_safe": true,
+    "respawn_anchor_works": true,
+    "bed_works": true,
+    "has_raids": true,
+    "has_skylight": true,
+    "has_ceiling": false,
+    "coordinate_scale": 1,
+    "ambient_light": 0.1,
+    "fixed_time": 18000,
+    "logical_height": 256,
+    "effects": "minecraft:the_end",
+    "infiniburn": "#hardcoreskyblock:infiniburn_afterlife",
+    "min_y": 0,
+    "height": 256,
+    "monster_spawn_light_level": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 0,
+        "max_inclusive": 7
+    },
+    "monster_spawn_block_light_limit": 0
+}

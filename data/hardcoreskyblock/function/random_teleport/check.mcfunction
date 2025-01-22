@@ -1,0 +1,1 @@
+execute at @e[type=marker,tag=rtp] unless block ~4 ~-1 ~ grass_block unless block ~-4 ~-1 ~ grass_block unless block ~ ~-1 ~-4 grass_block unless block ~ ~-1 ~4 grass_block run schedule function hardcoreskyblock:random_teleport/check_generate 5t

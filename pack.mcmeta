@@ -1,0 +1,10 @@
+{
+    "pack": {
+        "description": "Ultra Hardcore Skyblock Pack",
+        "pack_format": 61,
+        "supported_formats": [
+            57,
+            61
+        ]
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "type": "hardcoreskyblock:the_afterlife",
+    "generator": {
+        "type": "minecraft:noise",
+        "settings": "hardcoreskyblock:the_afterlife_noise",
+        "biome_source": {
+            "type": "minecraft:fixed",
+            "biome": "hardcoreskyblock:afterlife"
+        }
+    }
+}
