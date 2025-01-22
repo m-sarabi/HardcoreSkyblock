@@ -1,12 +1,6 @@
 scoreboard objectives add random_x dummy
 scoreboard objectives add random_z dummy
-scoreboard objectives add revive_timer dummy
-scoreboard objectives add revive_time trigger
 scoreboard objectives add dead deathCount
-scoreboard objectives add remaining dummy
-scoreboard objectives add constants dummy
-
-scoreboard players set #max_timer constants 144010
 
 team add dead {"text": "Dead players"}
 team modify dead color red

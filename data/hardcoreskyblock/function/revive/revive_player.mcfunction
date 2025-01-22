@@ -1,4 +1,3 @@
-trigger revive_time add 0
 tag @s remove dead
 scoreboard players set @s dead 0
 gamemode survival @s
@@ -21,4 +20,3 @@ effect give @s minecraft:regeneration 2 255 true
 
 # teleport the player
 execute as @s run function hardcoreskyblock:random_teleport/start
-scoreboard players set @s revive_timer 0
