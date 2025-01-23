@@ -77,8 +77,8 @@
             "hardcoreskyblock:flower_regular",
             "hardcoreskyblock:afterlife_flowers",
             "minecraft:patch_grass_plain",
-            "hardcoreskyblock:brown_mushroom_afterlife",
-            "hardcoreskyblock:red_mushroom_afterlife",
+            "minecraft:brown_mushroom_nether",
+            "minecraft:red_mushroom_nether",
             "minecraft:patch_sugar_cane",
             "minecraft:patch_pumpkin"
         ],
