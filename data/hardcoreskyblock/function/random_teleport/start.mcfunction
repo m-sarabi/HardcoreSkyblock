@@ -3,6 +3,7 @@ effect clear @s
 effect give @s resistance 4 4 true
 effect give @s minecraft:saturation 4 255 true
 effect give @s minecraft:regeneration 4 255 true
+effect give @s slow_falling 4 0 true
 effect give @s minecraft:slowness 4 6 true
 
 # generate random coordinates
