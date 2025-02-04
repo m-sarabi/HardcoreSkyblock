@@ -1,7 +1,6 @@
 {
     "values": [
         "hardcoreskyblock:tick",
-        "hardcoreskyblock:artificial_border",
-        "hardcoreskyblock:qol/tick"
+        "hardcoreskyblock:artificial_border"
     ]
 }

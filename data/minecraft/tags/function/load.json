@@ -1,6 +1,5 @@
 {
     "values": [
-        "hardcoreskyblock:load",
-        "hardcoreskyblock:qol/load"
+        "hardcoreskyblock:load"
     ]
 }

@@ -2,6 +2,8 @@ scoreboard objectives add hcsb.random_x dummy
 scoreboard objectives add hcsb.random_z dummy
 scoreboard objectives add hcsb.dead deathCount
 scoreboard objectives add hcsb.gapple minecraft.used:minecraft.golden_apple
+scoreboard objectives add tps trigger
+scoreboard objectives add mobcaps trigger
 
 team add hcsb.dead {"text": "Dead players"}
 team modify hcsb.dead color red
@@ -14,3 +16,6 @@ team add hcsb.owner {"text": "Owner"}
 team modify hcsb.owner prefix [{"text": "[","color": "white"},{"text": "O","color": "green"},{"text": "] ", "color": "white"}]
 
 tellraw @a { "text": "Hardcore Skyblock Pack loaded" }
+
+# triggers for tps and mob_cap log commands
+function hardcoreskyblock:qol/tick
