@@ -1,5 +1,5 @@
 # teleport the player
-tp @a[tag=hcsb.rtp] ~0.5 ~ ~2.5
+tp @a[tag=hcsb.rtp] ~0.5 ~ ~2.5 180 0
 
 # remove the force load
 forceload remove all
