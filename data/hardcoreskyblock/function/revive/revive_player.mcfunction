@@ -13,11 +13,5 @@ xp add @s -1000 levels
 advancement revoke @s everything
 recipe take @s *
 
-# reset effects, health and hunger
-effect clear @s
-effect give @s resistance 5 4 true
-effect give @s minecraft:saturation 2 255 true
-effect give @s minecraft:regeneration 2 255 true
-
 # teleport the player
 execute as @s run function hardcoreskyblock:random_teleport/start

@@ -1,3 +1,10 @@
+# reset effects, health and hunger
+effect clear @s
+effect give @s resistance 4 4 true
+effect give @s minecraft:saturation 4 255 true
+effect give @s minecraft:regeneration 4 255 true
+effect give @s minecraft:slowness 4 6 true
+
 # generate random coordinates
 execute as @s store result score @s hcsb.random_x run random value -24000..24000
 execute as @s store result score @s hcsb.random_z run random value -24000..24000
