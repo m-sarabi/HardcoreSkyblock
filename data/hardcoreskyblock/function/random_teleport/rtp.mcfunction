@@ -1,7 +1,7 @@
 # teleport the marker
 tp @s ~ 64 ~
-execute store result entity @s Pos[0] double 1 run scoreboard players get @a[tag=rtp,limit=1] random_x
-execute store result entity @s Pos[2] double 1 run scoreboard players get @a[tag=rtp,limit=1] random_z
+execute store result entity @s Pos[0] double 1 run scoreboard players get @a[tag=hcsb.rtp,limit=1] hcsb.random_x
+execute store result entity @s Pos[2] double 1 run scoreboard players get @a[tag=hcsb.rtp,limit=1] hcsb.random_z
 
 # force load the area
 execute at @s run forceload add ~-4 ~-4 ~4 ~4

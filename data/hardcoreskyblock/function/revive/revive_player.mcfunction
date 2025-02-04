@@ -1,9 +1,9 @@
-tag @s remove dead
-scoreboard players set @s dead 0
+tag @s remove hcsb.dead
+scoreboard players set @s hcsb.dead 0
 gamemode survival @s
-execute as @s[team=dead_owner] run team join owner @s
-execute as @s[team=dead] run team leave @s
-scoreboard players set @s gapple 0
+execute as @s[team=hcsb.dead_owner] run team join hcsb.owner @s
+execute as @s[team=hcsb.dead] run team leave @s
+scoreboard players set @s hcsb.gapple 0
 
 # clear the inventory and xp levels
 clear @s

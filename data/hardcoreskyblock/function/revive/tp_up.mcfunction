@@ -1,2 +1,2 @@
-execute as @a[tag=tp_up] at @s run tp ~ 300 ~
-tag @s remove tp_up
+execute as @a[tag=hcsb.tp_up] at @s run tp ~ 300 ~
+execute as @a[tag=hcsb.tp_up] run tag @s remove hcsb.tp_up
