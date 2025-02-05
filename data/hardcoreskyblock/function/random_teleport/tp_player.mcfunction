@@ -1,0 +1,1 @@
+execute as @a[tag=hcsb.end_rtp] at @s run tp @s ~ 64 ~
